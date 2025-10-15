@@ -1,7 +1,7 @@
 # 🍎 Open Food Facts Nutrition Extraction — EDA & Qwen2.5-VLM Finetuning
 
-This repository focuses on exploratory data analysis (EDA) and fine-tuning a Vision-Language Model (VLM) to extract structured nutrition facts from Open Food Facts product images.
-The goal is to automatically extract and normalize nutrient values (per 100g) in JSON format from front or nutrition-label images.
+* This repository focuses on exploratory data analysis (EDA) and fine-tuning a Vision-Language Model (VLM) to extract structured nutrition facts from Open Food Facts product images.
+* The goal is to automatically extract and normalize nutrient values (per 100g) in JSON format from front or nutrition-label images.
 
 ## Overview
 
@@ -60,21 +60,21 @@ The evaluation framework compares predicted JSON outputs vs ground truth nutrien
 | **MAPE (Mean Absolute Percentage Error)** | Measures numerical accuracy for matched keys                 | MAE and MAPE              |
 | **Composite Score**                       | Combined structural + value accuracy                         | Overall = F1 * (1 - MAE) |
 
-### Future Work:
+## Future Work:
 
 * Expand dataset with multilingual nutrition images.
 * Train model for longer duration.
 * Evaluate on noisy and low-resolution packaging images.
 * Support Full Model Evaluation.
 
-### 📚 References
+## 📚 References
 
-* [Open Food Facts Dataset](**https://**world.openfoodfacts.org**/**)
+* [Open Food Facts Dataset](https://world.openfoodfacts.org/)
 * [Qwen2.5-VL Model Card](https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct)
 * [Unsloth Fine-Tuning Framework](https://github.com/unslothai/unsloth)
 
-### Author
+## Author
 
-**Sagar Rathod **
+**Sagar Rathod**
 Machine Learning & Computer Vision Researchers
-🚀 Focus: Vision-Language Models, OCR, and Geospatial AI
+Focus: Vision-Language Models, OCR, and Geospatial AI

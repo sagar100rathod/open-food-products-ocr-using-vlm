@@ -76,5 +76,6 @@ The evaluation framework compares predicted JSON outputs vs ground truth nutrien
 ## Author
 
 **Sagar Rathod**
-Machine Learning & Computer Vision Researchers
-Focus: Vision-Language Models, OCR, and Geospatial AI
+
+* Machine Learning & Computer Vision Researchers
+* Focus: Vision-Language Models, OCR, and Geospatial AI

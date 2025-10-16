@@ -57,8 +57,8 @@ The evaluation framework compares predicted JSON outputs vs ground truth nutrien
 | KPI                                       | Description                                                  | Formula                    |
 | ----------------------------------------- | ------------------------------------------------------------ | -------------------------- |
 | **Key Precision / Recall / F1**           | Measures how well the model predicts correct nutrient fields | F1 Score (Matched Keys)    |
-| **MAPE (Mean Absolute Percentage Error)** | Measures numerical accuracy for matched keys                 | MAE and MAPE              |
-| **Composite Score**                       | Combined structural + value accuracy                         | Overall = F1 * (1 - MAE) |
+| **MAPE (Mean Absolute Percentage Error)** | Measures numerical accuracy for matched keys                 | MAPE                       |
+| **Composite Score**                       | Combined structural + value accuracy                         | Overall = F1 * (1 - MAPE)  |
 
 ## Future Work:
 
@@ -66,6 +66,7 @@ The evaluation framework compares predicted JSON outputs vs ground truth nutrien
 * Train model for longer duration.
 * Evaluate on noisy and low-resolution packaging images.
 * Support Full Model Evaluation.
+* Calculation of NutriScore and NutriScore Grade for nutrients values exctracted by VLM model ysing [pyNutriScore](https://pypi.org/project/pyNutriScore/)
 
 ## 📚 References
 
